@@ -33,3 +33,4 @@ if (cocomeroTrovato) {
 } else {
     console.log('Non trovato: cocomero non è presente nell\'array modificato.');
 }
+
