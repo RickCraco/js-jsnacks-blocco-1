@@ -12,3 +12,9 @@ if(vettore1.length === vettore2.length){
 }else{
   console.log('i due vettori hanno ancora lunghezze diverse');
 }
+
+//utility
+
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+  }
