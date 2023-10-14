@@ -32,3 +32,9 @@ if(x <= array.length){
 }else{
   alert('errore impossibile stampare i dati, grandezza non valida');
 }
+
+//utility
+
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
